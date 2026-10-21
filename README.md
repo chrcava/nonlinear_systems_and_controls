@@ -24,7 +24,7 @@ biometrics of the cyclist, looking at different aerodynamic postures, hoping to 
 
 The simulation was designed based on the 2025 Western Massachusetts half Ironman bike course:
 
-![Course](scr/western%20mass%20course.png)
+![Course](scr/west%20mass%20course.png)
 
 ## Aerodynamic Analysis
 
