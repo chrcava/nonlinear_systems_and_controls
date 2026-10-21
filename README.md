@@ -26,6 +26,8 @@ The simulation was designed based on the 2025 Western Massachusetts half Ironman
 
 ![Course](scr/west%20mass%20course.png)
 
+More about this can be read in the final paper.
+
 ## Aerodynamic Analysis
 
 A separate MATLAB script compares the estimated power required to maintain
