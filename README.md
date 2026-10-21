@@ -24,7 +24,7 @@ biometrics of the cyclist, looking at different aerodynamic postures, hoping to 
 
 The simulation was designed based on the 2025 Western Massachusetts half Ironman bike course:
 
-
+![Course](scr/western%20mass%20course.png)
 
 ## Aerodynamic Analysis
 
@@ -58,7 +58,7 @@ The comparison includes:
 - Calories burned
 - Time to complete a fixed-distance segment
 
-
+![Results](scr/real%20results.png)
 
 These comparisons provide a practical complement to the physics-based
 model and help connect theoretical predictions with observed performance.
