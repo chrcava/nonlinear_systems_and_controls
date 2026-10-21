@@ -39,7 +39,7 @@ The analysis considers:
 
 These cycling postures can be seen here:
 
-
+![Cycling Positions](scr/cycling%20positions.png)
 
 It also compares estimated power requirements under calm conditions and
 a significant headwind.
@@ -71,7 +71,7 @@ model and help connect theoretical predictions with observed performance.
 - Physics-based system modeling
 - Data visualization and analysis
 
-## To Read More
+## READ MORE
 
 To explore this project more, enjoy the following repository contents:
 
