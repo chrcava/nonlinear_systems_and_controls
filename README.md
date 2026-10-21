@@ -1,25 +1,11 @@
-# Nonlinear Systems & Controls: Cycling Performance Simulation
+# Nonlinear Modeling of Cycling
 
-A project exploring nonlinear dynamics, adaptive pacing, and
-the effects of aerodynamic drag on cycling performance.
+A half Ironman consists of a 1.2 mile swim, a 56 mile bike, and a 13.1 mile run. Cycling is the middle and longest leg of the 
+race, making it arguably the most important to master. During the bike, the athlete aims to cycle as fast as possible while preserving 
+their legs for the half marathon that follows. 
 
-This project combines physics-based modeling, numerical simulation, and
-real-world cycling data to investigate how rider position, road grade, and
-power output influence speed and overall race performance.
-
-## Project Overview
-
-The goal of this project was to develop a nonlinear dynamic model of a cyclist and
-use simulation to investigate how different riding strategies affect
-performance over a long-distance course.
-
-The model incorporates the forces acting on a cyclist, including aerodynamic
-drag, rolling resistance, and gravity. It also accounts for changes in
-rider posture and pedaling effort to simulate how a cyclist responds to
-varying terrain.
-
-An adaptive pacing strategy was explored to examine how effort and riding
-position could be adjusted based on road conditions.
+The goal of this project is to model, simulate, and analyze cycling using nonlinear modeling of the mechanics of the bike and the 
+biometrics of the cyclist, looking at different aerodynamic postures, hoping to maximize speed while preserving energy for the run.
 
 ## Key Engineering Concepts
 
@@ -36,21 +22,9 @@ position could be adjusted based on road conditions.
 
 ## Simulation Model
 
-The simulation incorporates several physical and control-related factors:
+The simulation was designed based on the 2025 Western Massachusetts half Ironman bike course:
 
-| Component | Description |
-|---|---|
-| Aerodynamic drag | Models resistance as a function of velocity and rider posture. |
-| Rolling resistance | Accounts for resistance between the tires and road. |
-| Gravitational force | Models the effect of uphill and downhill road grades. |
-| Rider biomechanics | Uses a muscle force-velocity relationship to model available pedaling force. |
-| Rider posture | Represents the hoods, drops, aero bars, and a low-drag plank position. |
-| Pacing strategy | Adjusts pedaling effort according to road conditions. |
-| Course profile | Simulates cycling over a long-distance course with varying road grades. |
 
-The simulation tracks speed, power, distance, road grade, and rider posture
-over time. These outputs provide a way to examine the interaction between
-the physical system and the chosen pacing strategy.
 
 ## Aerodynamic Analysis
 
@@ -62,6 +36,10 @@ The analysis considers:
 - Drop bars
 - Aero bars
 - Plank position
+
+These cycling postures can be seen here:
+
+
 
 It also compares estimated power requirements under calm conditions and
 a significant headwind.
@@ -80,18 +58,10 @@ The comparison includes:
 - Calories burned
 - Time to complete a fixed-distance segment
 
+
+
 These comparisons provide a practical complement to the physics-based
 model and help connect theoretical predictions with observed performance.
-
-## Repository Contents
-
-| File | Description |
-|---|---|
-| `simulation_trial1.m` | Simulates cycling dynamics, rider posture, and pacing over a course. |
-| `air_resistance_comparisons.m` | Compares estimated cycling power requirements across rider positions and wind conditions. |
-| `data_comparisons.m` | Visualizes cycling performance data collected across different rider positions. |
-| `Cavalluzzo nonlinear final.pdf` | Final project report. |
-| `Cavalluzzo nonlinear final paper.pdf` | Final paper documenting the project. |
 
 ## Tools & Technologies
 
@@ -101,13 +71,14 @@ model and help connect theoretical predictions with observed performance.
 - Physics-based system modeling
 - Data visualization and analysis
 
-## Project Takeaways
+## To Read More
 
-This project provided an opportunity to apply nonlinear systems and
-controls concepts to a physical system with interacting aerodynamic,
-mechanical, and human-performance factors.
+To explore this project more, enjoy the following repository contents:
 
-By combining a dynamic simulation with aerodynamic calculations and
-experimental data, the project explored how modeling assumptions, rider
-position, terrain, and pacing strategy can influence predicted cycling
-performance.
+| File | Description |
+|---|---|
+| `Cavalluzzo nonlinear final paper.pdf` | Final paper documenting the project |
+| `Cavalluzzo nonlinear final.pdf` | Final project report presentation |
+| `simulation_trial1.m` | Simulates cycling dynamics, rider posture, and pacing over a course |
+| `air_resistance_comparisons.m` | Compares estimated cycling power requirements across rider positions and wind conditions |
+| `data_comparisons.m` | Visualizes cycling performance data collected across different rider positions |
