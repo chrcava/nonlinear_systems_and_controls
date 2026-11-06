@@ -79,8 +79,8 @@ To explore this project more, enjoy the following repository contents:
 
 | File | Description |
 |---|---|
-| `Cavalluzzo nonlinear final paper.pdf` | Final paper documenting the project |
-| `Cavalluzzo nonlinear final.pdf` | Final project report presentation |
+| ![Final Paper](Cavalluzzo%20nonlinear%20final%20paper.pdf) | Final paper documenting the project |
+| ![Final Presentation](Cavalluzzo%20nonlinear%20final.pdf) | Final project report presentation |
 | `simulation_trial1.m` | Simulates cycling dynamics, rider posture, and pacing over a course |
 | `air_resistance_comparisons.m` | Compares estimated cycling power requirements across rider positions and wind conditions |
 | `data_comparisons.m` | Visualizes cycling performance data collected across different rider positions |
